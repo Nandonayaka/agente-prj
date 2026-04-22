@@ -11,7 +11,7 @@
     <div class="max-w-6xl mx-auto px-4">
         
         {{-- Navbar --}}
-        @include('components.navbar')
+        @include('layouts.navbar')
 
         {{-- Content --}}
         <div class="mt-6">
