@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('name_product');
             $table->integer('harga');
             $table->text('deskripsi_product');
-            $table->integer('kategori_id');
+            $table->integer('kategori_id')->nullable();
             $table->timestamps('');
         });
     }

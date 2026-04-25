@@ -8,4 +8,10 @@ class Product extends Model
 {
     protected $table = 'tb_products';
     protected $primaryKey = 'id_product';
-}
+
+    protected $fillable =[
+    'name_product',
+    'harga',
+    'deskripsi_product',
+    ];
+};
