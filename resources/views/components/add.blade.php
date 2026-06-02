@@ -20,6 +20,8 @@
             @enderror
         </div>
 
+        <x-input name="name_product" label="Nama Product" type="text" />
+
         <div>
             <label class="block text-sm mb-1">Harga</label>
             <input type="number" name="harga"
@@ -45,10 +47,9 @@
         </div>
 
         <div class="flex justify-end">
-            <button type="submit"
-                class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
-                Simpan
-            </button>
+        <x-button type="submit">
+            Kirim
+        </x-button>
         </div>
 
     </form>
